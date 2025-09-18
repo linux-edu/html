@@ -146,6 +146,11 @@
             box-shadow: 0 0 20px #00FF00;
         }
 
+        /* Add click animation feedback */
+        .btn:active {
+            transform: scale(0.95);
+        }
+
         /* Footer */
         footer {
             text-align: center;
